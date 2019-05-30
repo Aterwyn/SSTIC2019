@@ -2,6 +2,7 @@
 SSTIC2019 Challenge - All steps solutions
 
 Challenge description: https://www.sstic.org/2019/challenge/
+
 Challenge file: http://static.sstic.org/challenge2019/challenge_SSTIC_2019-virtual_phone.tar.gz
 
 All scripts work using Python3
