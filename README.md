@@ -21,6 +21,9 @@ All scripts work using Python3
   Note that only a subset of dwarf specification instructions is implemented (only those relevant to the challenge)
 
 ## Step4
+
+Note: flash.bin is too big and cannot be added to this repo. Get it from the challenge tar archive.
+
 Input files for the Step4 challenge
   - flash.bin: binary containing Step4 trusted firmware and EL3 files (ciphered files bl2, bl31, bl32 + filesystem)
   - sstic.ko: sstic kernel driver used by the Step4
