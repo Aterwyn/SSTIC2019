@@ -1,5 +1,5 @@
-# SSTIC2019
-SSTIC2019 Challenge - All steps solutions
+# SSTIC 2019 Challenge
+Solutions to all steps
 
 Challenge description: https://www.sstic.org/2019/challenge/
 
