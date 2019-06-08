@@ -31,9 +31,9 @@ Input files for the Step4 challenge
 
 Scripts:
   - SM4.py: implementation of custom SM4 algorithm used by the Step4. Python module used by some of the following scripts
-  - 00_file_extraction_script.py: this script enable to extract and decipher bl2.bin, bl31.bin, bl32.bin files, from flash.bin file
+  - 00_file_extraction_script.py: this script enables to extract and decipher bl2.bin, bl31.bin, bl32.bin files, from flash.bin file
   - 01_write_payload_to_binary_file.py: in this Step4, there are 0x101010 bytes deciphered using custom SM4 algorithm. These bytes have been copied in this script, in order to put them into a binary file (still encrypted)
   - 02_decipher_payload.py: script to decipher ciphered_payload.bin into decrypted_payload.bin
   - 03_reverse_final_function.py: script containing the reverse of the VM of the Step4, keeping function address names and smc LSB naming. This script also contains some pseudo-code written for each VM opcode, in order to enable the final reverse
-  - 04_reversing_bis.py: script containing reworked pseudo-code extracted from the previous script, with custom notes to watch the evolution of the VM registers
+  - 04_reversing_bis.py: script containing the reworked pseudo-code extracted from the previous script, with custom notes to watch the evolution of the VM registers
   - 05_solution_cracking.py: script containing the reversed pseudo-code to find the Step4 correct input
